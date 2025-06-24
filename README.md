@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-https://github.com/yuna569/github-readme-stats
+[![Yuna's GitHub stats](https://github-readme-stats.vercel.app/api?username=yuna569)](https://github.com/yuna569/github-readme-stats)
 
 <!--
 **yuna569/yuna569** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
