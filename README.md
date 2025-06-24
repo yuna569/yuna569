@@ -6,9 +6,11 @@
 
 ![gitanimal](https://gitanimals.netlify.app/api/user/yuna569)
 
+<!--
 <a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/farms/{username}"/>
+  <img src="https://render.gitanimals.org/farms/{yuna569}"/>
 </a>
+-->
 
 <!--![Yuna's GitHub stats](https://github-readme-stats.vercel.app/api?username=yuna569&show_icons=true&theme=radical)-->
 
