@@ -4,7 +4,11 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
 
-![Yuna's GitHub stats](https://github-readme-stats.vercel.app/api?username=yuna569&show_icons=true&theme=radical)
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/{username}"/>
+</a>
+
+<!--![Yuna's GitHub stats](https://github-readme-stats.vercel.app/api?username=yuna569&show_icons=true&theme=radical)-->
 
 <!--
 **yuna569/yuna569** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
