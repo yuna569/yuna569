@@ -4,7 +4,7 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
 
-<a href="https://github.com/devxb/gitanimals" style="text-align:center;">
+<a href="https://github.com/devxb/gitanimals" style="align:center">
   <img src="https://render.gitanimals.org/farms/yuna569"/>
 </a>
 
