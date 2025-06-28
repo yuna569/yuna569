@@ -4,8 +4,12 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
 
-<a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/farms/yuna569"/>
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=yuna569&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/yuna569"
+  width="600"
+  height="300"
+/>
 </a>
 
 <!--![Yuna's GitHub stats](https://github-readme-stats.vercel.app/api?username=yuna569&show_icons=true&theme=radical)-->
