@@ -6,8 +6,6 @@
 
 ![Yuna's GitHub stats](https://github-readme-stats.vercel.app/api?username=yuna569&show_icons=true&theme=radical)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yuna569)](https://github.com/anuraghazra/github-readme-stats)
-
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=yuna569&utm_content=line">
   <img
     src="https://render.gitanimals.org/lines/yuna569"
