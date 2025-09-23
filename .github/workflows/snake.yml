@@ -1,43 +1,57 @@
 # 커밋 먹는 뱀 그래프 생성을 위한 GitHub Action🐍
 name: Generate Snake
 
-# Action이 언제 구동될지 결정
 on:
   schedule:
-    # 6시간마다 한 번(수정 가능)
     - cron: "0 */6 * * *"
-
-  # 자동으로 Action이 실행되도록 함
   workflow_dispatch:
+
+# 푸시가 필요하므로 권한 부여
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
 
-      # 뱀 생성
-      - uses: Platane/snk@master
-        id: snake-gif
+      # 뱀 이미지 생성 (권장 버전 v3)
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
           github_user_name: yuna569
-          # output branch에 gif, svg를 각각 생성
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          # v3에서는 outputs 형식 권장
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif
 
       - run: git status
 
-      # 변경사항 push
+      # 변경사항 커밋
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add dist/
+          git commit -m "chore: update snake assets" || echo "no changes to commit"
+
+      # 변경사항 push (브랜치: main, 액션은 master)
       - name: Push changes
-        uses: ad-m/github-push-action@main
+        uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           force: true
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      # GitHub Pages 배포 (사용 중인 액션 버전에 맞춤)
+      - uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
