@@ -14,6 +14,8 @@
 
 ![Yuna's GitHub stats](https://github-readme-stats.vercel.app/api?username=yuna569&show_icons=true&theme=radical)
 
+![snake gif](https://github.com/yuna569/yuna569/blob/output/github-contribution-grid-snake.svg)
+
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=yuna569&utm_content=farm">
 <img
   src="https://render.gitanimals.org/farms/yuna569"
