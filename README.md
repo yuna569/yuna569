@@ -14,7 +14,10 @@
 />
 </a>
 
-![snake gif](https://github.com/yuna569/yuna569/blob/output/github-snake-dark.svg)
+<!--![snake gif](https://github.com/yuna569/yuna569/blob/output/github-snake-dark.svg)-->
+<div align="center">
+  <img src="https://github.com/yuna569/yuna569/blob/output/github-snake-dark.svg">
+</div>
 
 <!--
 **yuna569/yuna569** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
