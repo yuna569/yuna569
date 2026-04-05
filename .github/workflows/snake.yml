@@ -26,9 +26,11 @@ jobs:
           github_user_name: yuna569
           # v3에서는 outputs 형식 권장
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif
+            dist/github-snake-dark.svg?color_snake=#56FFFF&color_dots=#ACD7AC,#FFDBF7,#FDB5ED,#FE99E7,#FF7DE1,#FF56D8
+
+          #dist/github-contribution-grid-snake.svg
+            #dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            #dist/github-contribution-grid-snake.gif
 
       - run: git status
 
